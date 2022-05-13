@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matching Game</title>  
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <h1>Verbs Matching Game</h1>
+  <p>Drag the English irregular verbs over to the matching infinitive verbs</p>
+  <p>Arrastra el verbo irregular hasta el verbo infinitivo correspondiente</p>
+
+  <main class="container">
+    <div>
+      <ul class="draggable-list">
+        <li id="e1" draggable="true">BOUGHT</li>
+        <li id="e2" draggable="true">DID</li>
+        <li id="e3" draggable="true">GOT</li>
+        <li id="e4" draggable="true">WENT</li>
+        <li id="e5" draggable="true">HAD</li>
+        <li id="e6" draggable="true">LEFT</li>
+        <li id="e7" draggable="true">SAID</li>
+        <li id="e8" draggable="true">SAW</li>
+        <li id="e9" draggable="true">SENT</li>
+        <li id="e10" draggable="true">SAT</li>
+        <li id="e11" draggable="true">TOLD</li>
+        <li id="e12" draggable="true">WROTE</li>
+        <li id="e13" draggable="true">WAS</li>
+        <li id="e14" draggable="true">WERE</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s2" draggable="true">DO</li>
+        <li id="s5" draggable="true">HAVE</li>
+        <li id="s1" draggable="true">BUY</li>
+        <li id="s3" draggable="true">GET</li>
+        <li id="s4" draggable="true">GO</li>
+        <li id="s7" draggable="true">SAY</li>
+        <li id="s13" draggable="true">BE(AM/IS)</li>
+        <li id="s9" draggable="true">SEND</li>
+        <li id="s6" draggable="true">LEAVE</li>
+        <li id="s11" draggable="true">TELL</li>
+        <li id="s10" draggable="true">SIT</li>
+        <li id="s14" draggable="true">BE(ARE)</li>
+        <li id="s12" draggable="true">WRITE</li>
+        <li id="s8" draggable="true">SEE</li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="endMessage">
+    <h3>Well done!</h3>
+    <h3>¡Bien hecho!</h3>
+    <table>
+      <tr>
+        <th>Irregular Verbs</th>
+        <th>Regular Verbs</th>
+      </tr>
+      <tr>
+        <td>BOUGHT</td>
+        <td>BUY</td>
+      </tr>
+      <tr>
+        <td>DID</td>
+        <td>DO</td>
+      </tr>
+      <tr>
+        <td>GOT</td>
+        <td>GET</td>
+      </tr>
+      <tr>
+        <td>WENT</td>
+        <td>GO</td>
+      </tr>
+      <tr>
+        <td>HAD</td>
+        <td>HAVE</td>
+      </tr>
+      <tr>
+        <td>LEFT</td>
+        <td>LEAVE</td>
+      </tr>
+      <tr>
+        <td>SAID</td>
+        <td>SAY</td>
+      </tr>
+      <tr>
+        <td>SAW</td>
+        <td>SEE</td>
+      </tr>
+      <tr>
+        <td>SENT</td>
+        <td>SEND</td>
+      </tr>
+      <tr>
+        <td>SAT</td>
+        <td>SIT</td>
+      </tr>
+      <tr>
+        <td>TOLD</td>
+        <td>TELL</td>
+      </tr>
+      <tr>
+        <td>WROTE</td>
+        <td>WRITE</td>
+      </tr>
+      <tr>
+        <td>WAS</td>
+        <td>BE(AM/IS)</td>
+      </tr>
+      <tr>
+        <td>WERE</td>
+        <td>BE(ARE)</td>
+      </tr>
+    </table>
+
+    <button onclick="playAgain()">Play Again</button>
+  </div>
+
+  <footer>
+      <span>Dev <a href="https://www.linkedin.com/in/daniela-reta/" class="devFooter">Danisol</a> derechos reservados</span>
+  </footer>
+  <script src="index.js"></script>
+
+  
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+.container {
+    max-width: 960px;
+    margin: auto;
+  }
+  
+  body {
+    background-color: #fef6e4;
+    font-family: sans-serif;
+    color: #001858;
+  }
+  
+  h1, h3, p {
+    text-align: center;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .draggable-list {
+    padding: 5px;
+  }
+  
+  li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #f3d2c1;
+    border: 1px solid #8bd3dd;
+    color: #001858;
+    cursor: grab;
+  }
+  
+  .over {
+    background-color: #f582ae;
+  }
+  
+  
+  table {
+    max-width:640px;
+    margin: auto;
+    margin-bottom: 20px;
+    
+  }
+  
+  th, td {
+    padding: 10px 10px;
+  }
+  
+  td {
+    border: 1px solid #8bd3dd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f3d2c1;
+  }
+  
+  button {
+    margin: auto;
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #f582ae;
+    color: #001858;
+  }
+  
+  button:hover {
+    background-color: #fb498e;
+  }
+  
+  #endMessage {
+    display: none;
+  }
+
+footer{
+    font-family: 'IBM Plex Mono', monospace;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.devFooter{
+    text-decoration: none;
+    color: #fb498e;
+}
